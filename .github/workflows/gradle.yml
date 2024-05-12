@@ -20,7 +20,7 @@ jobs:
 
     - name: Build Docker images
       run: |
-        docker build . --build-arg --rm -t ghcr.io/jazzlilo/panako:develop
+        docker build resources/scripts/ --build-arg --rm -t ghcr.io/jazzlilo/panako:develop
 
     - name: Push Docker image to registry
       run: |
