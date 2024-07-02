@@ -53,7 +53,9 @@ import be.tarsos.dsp.util.AudioResourceUtils;
 class Play extends Application {
 	
 	
-	private static final int TARGET_SAMPLE_RATE = 15649;
+	//private static final int TARGET_SAMPLE_RATE = 15649;
+		
+	private static final int TARGET_SAMPLE_RATE = 32000;
 
 	@Override
 	public void run(String... args) {

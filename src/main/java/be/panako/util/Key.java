@@ -171,7 +171,7 @@ public enum Key{
 	 * The sample rate to use for the Olaf algorithm.
 	 * If audio with lower sample rate is used it is upsampled!
 	 */
-	OLAF_SAMPLE_RATE(16000),
+	OLAF_SAMPLE_RATE(32000),
 	/**
 	 * The size of an audio buffer
 	 */
@@ -321,7 +321,7 @@ public enum Key{
 	/**
 	 * The audio sample frequency in Hz
 	 */
-	PANAKO_SAMPLE_RATE(16000),
+	PANAKO_SAMPLE_RATE(32000),
 	
 	//Spectral tranform configuration
 	/**
