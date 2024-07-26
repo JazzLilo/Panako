@@ -133,7 +133,7 @@ public enum Key{
 	/**
 	 * The sample rate to use for the PCH algorithm
 	 */
-	PCH_SAMPLE_RATE(22050),
+	PCH_SAMPLE_RATE(32050),
 	/**
 	 * Take audio buffers with a 1024 sample overlap
 	 */
